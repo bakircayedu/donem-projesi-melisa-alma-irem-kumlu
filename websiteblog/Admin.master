@@ -11,9 +11,9 @@
         <title>Web Blog Admin 2021</title>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
 
-         <!-- Bootstrap CSS CDN -->
+        
         <link href="AdminDosyalar/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <!-- Our Custom CSS -->
+        
         <link href="AdminDosyalar/StyleSheet2.css" rel="stylesheet" />
     </head>
     <body>
@@ -21,7 +21,7 @@
 
 
         <div class="wrapper">
-            <!-- Sidebar Holder -->
+           
             <nav id="sidebar">
                 <div class="sidebar-header">
                     <h3>Admin Paneli</h3>
@@ -70,7 +70,7 @@
                
             </nav>
 
-            <!-- Page Content Holder -->
+           
             <div id="content">
 
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
@@ -85,9 +85,9 @@
 
 
 
-        <!-- jQuery CDN -->
+       
         <script src="AdminDosyalar/jquery-1.12.0.min.js"></script>
-         <!-- Bootstrap Js CDN -->
+         
         <script src="AdminDosyalar/js-bootstrap.min.js"></script>
 
          <script type="text/javascript">

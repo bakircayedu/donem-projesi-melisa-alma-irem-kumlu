@@ -18,7 +18,7 @@ public partial class AdminEgitimGuncelle : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        DataSetTableAdapters.TBLEGITIMTableAdapter dt = new DataSetTableAdapters.TBLEGITIMTableAdapter();
+        DataSetTableAdapters.TBLEGİTİMTableAdapter dt = new DataSetTableAdapters.TBLEGİTİMTableAdapter();
         dt.EgitimGuncelle(TxtBaslik.Text,TxtAltBaslik.Text,TxtAciklama.Text, Convert.ToInt16(TxtTarih.Text),Convert.ToInt16(Txtid.Text));
         Response.Redirect("AdminEgitimler.Aspx"); 
     }

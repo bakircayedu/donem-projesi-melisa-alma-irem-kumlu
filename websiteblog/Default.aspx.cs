@@ -17,11 +17,11 @@ public partial class _Default : System.Web.UI.Page
         Repeater2.DataSource = dt2.DeneyimListesi();
         Repeater2.DataBind();
 
-        DataSetTableAdapters.TBLEGITIMTableAdapter dt3 = new DataSetTableAdapters.TBLEGITIMTableAdapter();
-        Repeater3.DataSource = dt3.EğitimListesi();
+        DataSetTableAdapters.TBLEGİTİMTableAdapter dt3 = new DataSetTableAdapters.TBLEGİTİMTableAdapter();
+        Repeater3.DataSource = dt3.EgitimListesi();
         Repeater3.DataBind();
 
-        DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter dt4 = new DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter();
+        DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter dt4 = new DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter();
         Repeater4.DataSource = dt4.YetenekListesi();
         Repeater4.DataBind();
 

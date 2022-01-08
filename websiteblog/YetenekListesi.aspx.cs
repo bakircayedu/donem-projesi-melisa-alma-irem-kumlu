@@ -9,7 +9,7 @@ public partial class YetenekListesi : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter dt = new DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter();
+        DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter dt = new DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter();
         Repeater1.DataSource = dt.YetenekListesi();
         Repeater1.DataBind();
     }

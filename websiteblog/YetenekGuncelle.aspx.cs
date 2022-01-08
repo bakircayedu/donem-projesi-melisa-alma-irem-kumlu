@@ -18,7 +18,7 @@ public partial class YetenekGuncelle : System.Web.UI.Page
 
     protected void Button2_Click(object sender, EventArgs e)
     {
-        DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter dt = new DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter();
+        DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter dt = new DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter();
         dt.YetenekGuncelle(Txtyetenek.Text, Convert.ToInt16(Txtid.Text));
         Response.Redirect("YetenekListesi.Aspx");
     }

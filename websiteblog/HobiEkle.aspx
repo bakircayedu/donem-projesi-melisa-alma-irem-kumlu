@@ -13,7 +13,7 @@
             <br/>
            
 
-            <asp:Button ID="Button2" runat="server" Text="KAYDET" CssClass="btn btn-primary" OnClick="Button2_Click"    />
+            <asp:Button ID="Button2" runat="server" Text="KAYDET" CssClass="btn btn-primary " OnClick="Button2_Click"    />
 
 
         </div>

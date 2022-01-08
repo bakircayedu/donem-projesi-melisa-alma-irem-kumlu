@@ -14,7 +14,7 @@ public partial class YetenekEkle : System.Web.UI.Page
 
     protected void Button2_Click(object sender, EventArgs e)
     {
-        DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter dt = new DataSetTableAdapters.TBLPROFESYONELYETENEKLERIMTableAdapter();
+        DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter dt = new DataSetTableAdapters.TBLYETENEKTableAdapterTableAdapter();
         dt.YetenekEkle(TextBox1.Text);
         Response.Redirect("YetenekListesi.Aspx");
     }

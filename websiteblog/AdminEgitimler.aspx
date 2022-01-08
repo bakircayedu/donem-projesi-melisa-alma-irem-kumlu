@@ -24,7 +24,7 @@
                         <th>  <%#Eval("BASLIK") %>   </th>
                           <td>   <%#Eval("ALTBASLIK") %>    </td>
                           <td>   <%#Eval("ACIKLAMA") %>   </td>
-                          <td>  <%#Eval("TARIH_id") %>    </td>
+                          <td>  <%#Eval("TARIH_ID") %>    </td>
                         <td>
                             <asp:HyperLink NavigateUrl='<%#  "AdminEgitimSil.Aspx?ID=" + Eval("ID") %>' ID="HyperLink1" runat="server" CssClass="btn btn-danger">Sil</asp:HyperLink>
                             <asp:HyperLink NavigateUrl='<%# "AdminEgitimGuncelle.Aspx?ID=" + Eval("ID") %>'    ID="HyperLink2" runat="server" CssClass="btn btn-warning">Güncelle</asp:HyperLink>
